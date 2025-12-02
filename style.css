@@ -11,8 +11,8 @@ header, footer {
 }
 
 img {
-    height: 210px;
-    max-width: 100%;
+    width: 210px;
+    max-height: 100%;
     border-radius: 20px;
 }
 
@@ -61,6 +61,7 @@ img {
 
 @media (max-width: 600px) {
     img {
-        max-width: 50%;
+        max-width: 120px;
+        max-height: 100%;
     }
 }
