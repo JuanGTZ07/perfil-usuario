@@ -6,10 +6,11 @@ card.addEventListener("click", cambio);
 function cambio() {
     if (nombre.textContent.trim() === "Mariano") {
         nombre.textContent = "Mariana";
-    }
-
-    if (ocupacion.textContent.trim() === "Doctor") {
         ocupacion.textContent = "Doctora";
+    }
+    else {
+        nombre.textContent = "Mariano";
+        ocupacion.textContent = "Doctor";
     }
 
     alert("Cambios realizados");

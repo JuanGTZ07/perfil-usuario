@@ -34,7 +34,12 @@ img {
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
     gap: 20px;
-    align-items: start;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.perfil-card:hover {
+    transform: scale(1.02);
 }
 
 .side { grid-column: 1 / 2; }
