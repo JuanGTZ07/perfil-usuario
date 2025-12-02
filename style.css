@@ -6,13 +6,46 @@ body {
 
 header, footer {
     text-align: center;
+    background-color: rgb(199, 135, 236);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+img {
+    height: 50px;
+    max-width: auto;
+    border-radius: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-color: azure;
 }
 
 .perfil-card {
-    display: flex;
     max-width: 50%;
     padding: 10px;
     border: 1px solid black;
     border-radius: 4px;
-    box-shadow: 0 0 0 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
 }
+
+.side { grid-area: 1 / 1 / 3 / 2; }
+.top { grid-area: 1 / 2 / 2 / 4; }
+.ocupacion { grid-area: 2 / 2 / 3 / 3; }
+.redes { grid-area: 2 / 3 / 3 / 4; }
+
+
