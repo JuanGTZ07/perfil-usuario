@@ -7,6 +7,7 @@ body {
 header, footer {
     text-align: center;
     background-color: rgb(199, 135, 236);
+    display: block;
 }
 
 .container {
@@ -17,7 +18,7 @@ header, footer {
 }
 
 img {
-    height: 50px;
+    height: 210px;
     max-width: auto;
     border-radius: 30px;
 }
@@ -47,5 +48,4 @@ img {
 .top { grid-area: 1 / 2 / 2 / 4; }
 .ocupacion { grid-area: 2 / 2 / 3 / 3; }
 .redes { grid-area: 2 / 3 / 3 / 4; }
-
 
