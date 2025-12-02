@@ -33,7 +33,7 @@ img {
     background-color: beige;     
     display: grid;
     grid-template-columns: 200px 1fr 1fr;
-    gap: 20px;
+    column-gap: 20px;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -51,6 +51,11 @@ img {
     list-style: none;
     margin: 5px 0;
     padding: 0;
+    transition: 0.2;
+    cursor: pointer;
+}
+ul:hover {
+    transform: scale(1.02);
 }
 
 .redes a {
@@ -63,5 +68,9 @@ img {
     img {
         max-width: 120px;
         max-height: 100%;
+    }
+
+    h1 {
+        font-size: 20px;
     }
 }
